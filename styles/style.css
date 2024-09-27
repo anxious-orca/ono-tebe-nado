@@ -1,1 +1,61 @@
-/* место для вашего кода */
+.position-left {
+    justify-content: start;
+}
+
+.position-center {
+    justify-content: center;
+}
+
+.position-right {
+    justify-content: end;
+}
+
+.header {
+    display: flex;
+    height: 293px;
+    padding: 92px 24px 96px;
+    background-color: #eee;
+}
+
+.header-menu {
+    display: flex;
+    gap: 32px;
+    padding: 44px 0 40px 27px;
+    color: #000;
+    font-size: 18px;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 32px;
+    list-style: circle;
+}
+
+.header-menu-active .header-menu-link {
+    text-decoration: none;
+}
+
+.header-logo {
+    margin: 0 195px 0 45px;
+}
+
+.header-logo-image {
+    width: 135px;
+    height: 105px;
+}
+
+.header-adress {
+    width: 240px;
+    padding: 6px 20px 0 0;
+}
+
+.header-adress-list {
+    list-style: none;
+    line-height: 1.333;
+    color: #000;
+    font-size: 18px;
+}
+
+.header-adress-location {
+    white-space: wrap;
+}
