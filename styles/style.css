@@ -6,7 +6,7 @@
 }
 
 .header-menu {
-    padding: 44px 0 40px 0px;
+    padding: 44px 0 40px 33px;
     color: #000;
     font-size: 18px;
     font-weight: normal;
@@ -22,7 +22,7 @@
     text-decoration: none;
 }
 
-.header-menu-no-circle {
+.header-menu-no-style {
     list-style: none;
 }
 
@@ -87,20 +87,20 @@
     padding: 165px 0 0 50px;
 }
 
-.cover-title-second-word {
-    padding: 14px 0px 4px 336px;
-}
-
-.cover-title-third-word {
-    padding: 0 20px 0 0px;
-}
-
 .cover-title-first-word-letter {
     padding: 165px 0 0 30px;
 }
 
+.cover-title-second-word {
+    padding: 14px 0px 4px 336px;
+}
+
 .cover-title-second-word-letter {
     padding: 14px 200px 4px 30px;
+}
+
+.cover-title-third-word {
+    padding: 0 20px 0 0px;
 }
 
 .cover-title-third-word-letter {
@@ -158,15 +158,15 @@
     background-repeat: no-repeat;
 }
 
-.card-1 {
+.card-director {
     background-image: url(../images/card-lot-01.jpg);
 }
 
-.card-2 {
+.card-book {
     background-image: url(../images/card-lot-02.jpg);
 }
 
-.card-3 {
+.card-painting {
     background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -228,7 +228,7 @@
     padding: 36px 0 0 47px;
 }
 
-.about-logo-black {
+.about-logo-background {
     height: 240px;
     width: 240px;
     background-color: #000;
@@ -238,9 +238,6 @@
 
 .about-logo-image {
     height: 114px;
-    background-image: url(../images/logo-white.svg);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .about-content {

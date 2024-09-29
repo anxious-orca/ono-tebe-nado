@@ -13,7 +13,7 @@
     <header class="header">
       <nav class="header-menu">
         <ul class="header-menu-list">
-          <li class="header-menu-active header-menu-no-circle"></li>
+          <li class="header-menu-active header-menu-no-style">
             <a class="header-menu-link" href="#0">главная</a>
           </li>
           <li>
@@ -48,9 +48,9 @@
       </nav>
     </header>
     <main>
-      <section class="cover">
+      <div class="cover">
         <div class="cover-overlay"></div>
-      </section>
+      </div>
       <section class="cover-content">
         <h1 class="cover-title">
           <span class="cover-title-first-word">он</span>
@@ -64,34 +64,34 @@
           <span class="cover-title-third-word-letter">н</span>
           <span class="cover-title-third-word">адо</span>
         </h1>
-        <section class="cover-description">
+        <div class="cover-description">
           <p class="cover-description-text">
              аукцион вещей, в которые никто не верил
           </p>
           <button class="bet-button">Сделать ставку</button>
-        </section>
+        </div>
       </section>
       <section class="lots">
         <h2 class="lots-title">лоты</h2>
-        <section class="lots-cards-background">
-          <section class="card card-1">
+        <div class="lots-cards-background">
+          <div class="card card-director">
             <a class="card-link">
               <div class="card-overlay"></div>
             </a>
-          </section>
-          <section class="card card-2">
+          </div>
+          <div class="card card-book">
             <a class="card-link">
               <div class="card-overlay"></div>
             </a>
-          </section>
-          <section class="card card-3">
+          </div>
+          <div class="card card-painting">
             <a class="card-link">
               <div class="card-overlay"></div>
             </a>
-          </section>
-        </section>
+          </div>
+        </div>
         <section class="lots-cards-all-content">
-          <section class="lots-card-content">
+          <div class="lots-card-content">
             <h3 class="card-title">
               Фильм режиссёра, который бросил киношколу
             </h3>
@@ -99,8 +99,8 @@
               Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
               ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
             </p>
-          </section>
-          <section class="lots-card-content">
+          </div>
+          <div class="lots-card-content">
             <h3 class="card-title">
               Книга, где описан один скучный день из жизни рекламного агента
             </h3>
@@ -111,8 +111,8 @@
               времён. И это всё накладывается на эпическую поэму Гомера. Сколько
               бы вы поставили на «Улисса» Джеймса Джойса?
             </p>
-          </section>
-          <section class="lots-card-content">
+          </div>
+          <div class="lots-card-content">
             <h3 class="card-title">
               Картина, которую повторит даже 5-летний сын маминой подруги
             </h3>
@@ -122,18 +122,22 @@
               Сколько бы вы на такое поставили, если бы не знали, что это — одна
               из революционных работ Кандинского?
             </p>
-          </section>
+          </div>
         </section>
-        <p class="lots-info">
+        <aside class="lots-info">
           <a class="lots-link" href="#0">посмотреть больше</a>
-        </p>
+        </aside>
       </section>
-      <section class="about">
-        <section class="about-logo">
-          <section class="about-logo-black">
-            <div class="about-logo-image"></div>
-          </section>
-        </section>
+      <div class="about">
+        <div class="about-logo">
+          <div class="about-logo-background">
+            <img 
+              class="about-logo-image" 
+              src="./images/logo-white.svg" 
+              alt="логотип оно тебе надо"
+              >
+          </div>
+        </div>
         <section class="about-content">
           <h2 class="about-title">
             Об аукционе
@@ -157,7 +161,7 @@
             культовыми.
           </p>
         </section>
-      </section>
+      </div>
     </main>
     <footer class="footer">
       <nav class="footer-adress">
@@ -186,7 +190,7 @@
             </li>
         </ul>
       </nav>
-      <section class="footer-socials">
+      <aside class="footer-socials">
         <a class="footer-socials-link">
           <img 
             class="footer-socials-logo" 
@@ -208,7 +212,7 @@
             alt="логотип принтерест"
           >
         </a>
-      </section>
+      </aside>
     </footer>
   </body>
 </html>
